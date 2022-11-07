@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,7 +12,9 @@
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.6.0",
+    "react-particles": "^2.5.1",
+    "tsparticles": "^2.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

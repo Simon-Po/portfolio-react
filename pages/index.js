@@ -11,11 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-
-      <main className=' bg-slate-200 px-10'>
-
-          <section className=' min-h-max'>
-            <nav className='  pt-10  mb-12 flex justify-between'>
+      
+      <nav className=' bg-gradient-to-b from-slate-400 to-slate-200  px-10 pt-10 grad  pb-12 flex justify-between'>
               <h1 className=' text-xl font-mono'>Simon Pohl</h1>
               <ul className='flex items-center'>
                   <li>
@@ -26,6 +23,12 @@ export default function Home() {
                   </li>
               </ul>
             </nav>
+      <main className='  bg-slate-200 px-10 '>
+
+          <section className=' min-h-max'>
+            
+            
+            
             
             <div className='text-center p-10 '>
               <h2 className='text-5xl py-2 text-teal-600 font-medium font-mono'>Simon Pohl</h2>
