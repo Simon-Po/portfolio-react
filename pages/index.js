@@ -28,7 +28,7 @@ export default function Home() {
             </nav>
       <main className='  bg-slate-200 dark:bg-slate-800 px-8 '>
 
-          <section className=' min-h-max'>
+          <section className=' min-h-screen'>
             
             
             
@@ -52,7 +52,7 @@ export default function Home() {
           
           
           <section className=''>
-            <div className=' text-center pt-60'>
+            <div className=' text-center '>
               <h3 className='text-3xl py-1 dark:text-slate-100' >
                 Services I offer
               </h3>
