@@ -33,12 +33,8 @@ export default function Home() {
 
 
           <section className='  min-h-screen  '>
-=======
-          <section className=' min-h-screen'>
-            
-            
-            
 
+           
             
             <div className='flex justify-center'>
             <div  className='grid-flow-col grid w-fit m-0 '>
