@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Simon Pohl Portfolio</title>
         <meta name="description" content="Simon`s Portfolio Website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       
       
@@ -37,13 +37,13 @@ export default function Home() {
            
             
             <div className='flex justify-center'>
-            <div  className='grid-flow-col grid w-fit m-0 '>
+            <div  className='lg:grid-flow-col grid w-fit m-0 '>
 
-              <h2 className='  py-2 animate-slide-Right  text-purple-600 dark:text-purple-500 lg:text-9xl text-5xl font-mono text-right'>Simon <br /> Pohl</h2>
+              <h2 className='  py-2 lg:animate-slide-Right  text-purple-600 dark:text-purple-500 lg:text-9xl text-5xl font-mono text-right'>Simon <br /> Pohl</h2>
 
               
               
-              <h3 className=' py-2 animate-slide-Left lg:text-8xl text-4xl text-violet-600  dark:text-slate-100'>Full Stack <br /> Development</h3>
+              <h3 className=' py-2 lg:animate-slide-Left lg:text-8xl text-4xl text-violet-600  dark:text-slate-100'>Full Stack <br /> Development</h3>
               
             </div>
             </div>
