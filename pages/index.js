@@ -31,7 +31,14 @@ export default function Home() {
             </nav>
       <main className=' min-w-full  bg-slate-200 dark:bg-slate-800 px-8 '>
 
+
           <section className='  min-h-screen  '>
+=======
+          <section className=' min-h-screen'>
+            
+            
+            
+
             
             <div className='flex justify-center'>
             <div  className='grid-flow-col grid w-fit m-0 '>
