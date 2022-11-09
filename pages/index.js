@@ -48,27 +48,37 @@ export default function Home() {
             </div>
             </div>
             <div className='text-5xl flex justify-center gap-16 pt-36 text-gray-600 dark:text-slate-100'>
-              <AiFillTwitterCircle className=' animate-bounce-start cursor-pointer' />
-              <AiFillGithub className='animate-bounce-start cursor-pointer' />
-              <AiFillLinkedin className='animate-bounce-start cursor-pointer' />
+              <AiFillTwitterCircle className='  cursor-pointer' />
+              <AiFillGithub className=' cursor-pointer' />
+              <AiFillLinkedin className=' cursor-pointer' />
             </div>
             
           </section>
           
           
-
-          <section className=''>
-            <div className=' text-center '>
+          
+          <section className=' grid grid-cols-2  pb-10'>
+          <div className=' '>
+          <img src="https://images.unsplash.com/photo-1579158951805-53f80485ed44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" className=' rounded-full float-right pr-8 object-cover w-1/2' />
+          </div>
+            <div className='flex flex-col justify-center'>
+              
+            <div className=' text-left  '>
               <h3 className='text-3xl py-1 dark:text-slate-100' >
                 Services I offer
               </h3>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-100 ' >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, laboriosam a maiores velit exercitationem reiciendis, distinctio.</p>
-            </div>
-
+              </div>
+              <p className='text-md text-left py-2 leading-8 text-gray-800 dark:text-slate-100 ' >Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br></br> Similique, laboriosam a maiores velit exercitationem reiciendis, distinctio.</p>
+            
+              </div>
+              
          
 
           </section>
+          <section>
 
+            <div>hi</div>
+          </section>
 
 
 
